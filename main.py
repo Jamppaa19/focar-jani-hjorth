@@ -6,20 +6,21 @@ from time import sleep
 #odotetaan 10 sekunttia ennen lähtöä
 sleep(10)
 
-#Ajetaan FoCaria eteenpäin noin metri
-focar.eteenpain(5)
+#Ajetaan FoCaria  eteenpäin noin metri
+focar.eteenpain(aika=5)
 
 #Käännetään FoCaria
 focar.kaanny(suunta="vasen", maara=4)
 
 #Peruutetaan FoCaria
-focar.taaksepain(2)
+focar.taaksepain(aika=2)
 
 #Käännetään FoCaria
 focar.kaanny(suunta="vasen", maara=4)
 
 #Ajetaan FoCaria eteenpäin noin metri
-focar.eteenpain(5)
+focar.eteenpain(aika=5)
 
 #Pysäytetään FoCar
 focar.pysayta()
+
